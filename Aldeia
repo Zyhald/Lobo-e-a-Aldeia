@@ -1,0 +1,74 @@
+9 Ficheiros ( 4 .h / 5 .cpp )
+
+Personagens:
+
+-Lobos
+Lobos lobo1(),lobo2()
+
+Lobos lobos[] : {vidente}
+
+-Aldeoes
+Aldeoes aldeao1()........aldeao8()
+
+Aldeoes aldeoes[] : {lobo1, lobo2, etc...}
+
+-Vidente
+Vidente vidente()
+
+Vidente vidente[] : {aldeao1, aldeao2, etc...}
+for(   n < 7 )
+aldeao[n].aldeao
+
+-Narrador
+
+Struct Personagem:
+Id
+Personagem
+Status
+
+enum sts
+vivo
+morto
+dormindo
+
+3 Classes:
+
+-Lobo - Status - Personagem 
+setPersonagem
+getPersonagem
+
+-Vidente - Status - Personagem
+setPersonagem
+getPersonagem
+
+-Aldeoes - Status - Personagem
+setPersonagem
+getPersonagem
+
+Classe extra: Commons
+
+Private:
+
+Nome Jogador
+
+-Status:
+getStatus
+setStatus
+
+-ID:
+setid()
+getit()
+
+-voto()
+
+dormindo()
+
+percorre os arrays e o status - > acorda lobo -> aldeao -> adormece lobos -> acorda vidente (se estiver viva) -> pergunta se é lobo -> adormece vidente -> acorda a vila -> matar s/n alguem
+
+Se 2 lobos -> lobos ganham
+Se aldeoes matam lobos -> aldoes ganham
+
+acordado()
+morr()
+
+Main:
